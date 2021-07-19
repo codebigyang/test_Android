@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {//主函数
         setContentView(R.layout.activity_main);
         editText = findViewById(R.id.editTextTextPersonName);
         btn=findViewById(R.id.button);
-        btn.setOnClickListener(new View.OnClickListener() {
+        btn.setOnClickListener(new View.OnClickListener() {//点击事件
             @Override
             public void onClick(View v) {
                 String message=editText.getText().toString();
